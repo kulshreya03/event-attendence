@@ -33,7 +33,7 @@ function TeacherLogin() {
     return (
         <div className="main">
             <div className="form-container">
-                <h2>Student Login</h2>
+                <h2>Teacher Login</h2>
                 <form onSubmit={handleSubmit}>
                     <label>Enter Your Username</label>
                     <input type="text" name="username" placeholder="Enter Username" value={formData.username} onChange={handleChange} required />
